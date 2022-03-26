@@ -703,6 +703,8 @@ pub struct SubscriptionItemBillingThresholds {
 pub enum BusinessType {
     Individual,
     Company,
+    NonProfit,
+    GovernmentEntity,
 }
 
 #[derive(Copy, Clone, Debug, Deserialize, Serialize, Eq, PartialEq)]
