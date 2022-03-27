@@ -156,6 +156,8 @@ pub use self::tax_rate::*;
 #[cfg(feature = "connect")]
 mod account;
 #[cfg(feature = "connect")]
+mod account_ext;
+#[cfg(feature = "connect")]
 mod account_link;
 #[cfg(feature = "connect")]
 mod application;
@@ -165,6 +167,8 @@ mod application_fee;
 mod connect_collection_transfer;
 #[cfg(feature = "connect")]
 mod fee_refund;
+#[cfg(feature = "connect")]
+mod login_link;
 #[cfg(feature = "connect")]
 mod person;
 #[cfg(feature = "connect")]
@@ -178,6 +182,8 @@ mod transfer_reversal;
 #[cfg(feature = "connect")]
 pub use self::account::*;
 #[cfg(feature = "connect")]
+pub use self::account_ext::*;
+#[cfg(feature = "connect")]
 pub use self::account_link::*;
 #[cfg(feature = "connect")]
 pub use self::application::*;
@@ -187,6 +193,8 @@ pub use self::application_fee::*;
 pub use self::connect_collection_transfer::*;
 #[cfg(feature = "connect")]
 pub use self::fee_refund::*;
+#[cfg(feature = "connect")]
+pub use self::login_link::*;
 #[cfg(feature = "connect")]
 pub use self::person::*;
 #[cfg(feature = "connect")]

@@ -31,6 +31,7 @@
 ./openapi/add issuing_dispute
 ./openapi/add issuing_transaction
 ./openapi/add item
+./openapi/add login_link
 ./openapi/add line_item
 ./openapi/add mandate
 ./openapi/add order
