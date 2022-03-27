@@ -13,7 +13,7 @@ impl Account {
         account_id: &AccountId,
         params: CreateLoginLink,
     ) -> Response<LoginLink> {
-        client.post_form(&format!("/accuonts/{}/login_links", account_id), params)
+        client.post_form(&format!("/accounts/{}/login_links", account_id), params)
     }
 }
 
