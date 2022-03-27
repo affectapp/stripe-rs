@@ -37,6 +37,7 @@ pub fn object_mappings() -> ObjectMap {
         ("account_payments_settings", "payments_settings"),
         ("account_payout_settings", "payout_settings"),
         ("account_tos_acceptance", "tos_acceptance"),
+        ("account_link", "account_link"),
         ("charge_fraud_details", "fraud_details"),
         ("charge_transfer_data", "transfer_data"),
         ("fee_refund", "application_fee_refund"),
